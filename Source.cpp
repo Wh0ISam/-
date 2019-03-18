@@ -57,14 +57,14 @@ int main() {
 	if (a == 2) {
 		cout << "Запустить или заглушить двигатель? 1-запустить 2-заглушить"<<endl;
 		cin >> b;
-		avto.window = avto.engine_f(b);
+		avto.engine = avto.engine_f(b);
 	}
 
 	
 	if (a == 3) {
 		cout << "Введите какой объем положить в багажник."<< endl;
 		cin >> b;
-		avto.window = avto.Vbag2_f(b);
+		avto.Vbag2 = avto.Vbag2_f(b);
 	}
 
 	cout << "Марка:" << avto.mark << endl;

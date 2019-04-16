@@ -2,12 +2,13 @@
 #include <iostream>
 #include <cmath>
 #include <iomanip>
-using namespace std;
 
+
+using namespace std;
 
 void ComplexNumber::showComplexNumber()
 {
-	cout << x << showpos << y << "i" << noshowpos;
+	cout << x << showpos << y << "i" ;
 }
 
 ComplexNumber::ComplexNumber(double x, double y)
@@ -40,8 +41,8 @@ ComplexNumber ComplexNumber::operator/(ComplexNumber num)
 	return newNum;
 }
 void ComplexNumber::readComplexNumber() {
-	cout << "Enter real : ";
+	cout << "¬ведите вещественную часть : ";
 	cin >> x;
-	cout << "Enter imaginary : ";
+	cout << "¬ведите мнимую часть : ";
 	cin >> y;
 }

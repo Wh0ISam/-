@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Laba3", "Laba3\Laba3.vcxproj", "{C8934A93-7667-4852-A44C-70109A1F2AFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8934A93-7667-4852-A44C-70109A1F2AFB}.Debug|x64.ActiveCfg = Debug|x64
+		{C8934A93-7667-4852-A44C-70109A1F2AFB}.Debug|x64.Build.0 = Debug|x64
+		{C8934A93-7667-4852-A44C-70109A1F2AFB}.Debug|x86.ActiveCfg = Debug|Win32
+		{C8934A93-7667-4852-A44C-70109A1F2AFB}.Debug|x86.Build.0 = Debug|Win32
+		{C8934A93-7667-4852-A44C-70109A1F2AFB}.Release|x64.ActiveCfg = Release|x64
+		{C8934A93-7667-4852-A44C-70109A1F2AFB}.Release|x64.Build.0 = Release|x64
+		{C8934A93-7667-4852-A44C-70109A1F2AFB}.Release|x86.ActiveCfg = Release|Win32
+		{C8934A93-7667-4852-A44C-70109A1F2AFB}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49D7FCBF-D6B4-4EDB-B8C8-2B3E5C698E02}
+	EndGlobalSection
+EndGlobal
